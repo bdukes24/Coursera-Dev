@@ -11,14 +11,14 @@ h2 {
     float:right;
     margin-top:0;
 }
-#chicken{
+#chicken h2 {
     background: pink;
 }
-#beef{
+#beef h2 {
     background: red;
     color: white;
 }
-#sushi{
+#sushi h2 {
     background: tan;
 }
 div {
@@ -32,4 +32,11 @@ p{
     margin-top: 71px;
     padding: 20px;
 }
-
+@media (min-width: 768px ) and (max-width: 991px ){
+    #chicken, #beef {
+        width: 43%;
+    }
+    #sushi{
+        width: 93%;
+    }
+}
