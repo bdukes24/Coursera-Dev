@@ -1,0 +1,35 @@
+body{
+    background: white;
+}
+h1 {
+    text-align:center
+}
+h2 {
+    border:1px solid black;
+    text-align:center; 
+    width:33%;
+    float:right;
+    margin-top:0;
+}
+#chicken{
+    background: pink;
+}
+#beef{
+    background: red;
+    color: white;
+}
+#sushi{
+    background: tan;
+}
+div {
+    border:1px solid black;
+    background: darkgrey; 
+    width:25%;
+    float: left;
+    margin: 30px;
+}
+p{
+    margin-top: 71px;
+    padding: 20px;
+}
+
